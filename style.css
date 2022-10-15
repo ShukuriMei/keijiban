@@ -1,0 +1,119 @@
+.logo img{
+    width:340px;
+}
+
+header{
+    width:100%;
+    height:50px;
+    background-color: black;
+}
+
+header ul{
+    float:reft;
+    list-style:none;
+    line-height:50px;
+}
+
+header ul li{
+    float:left;
+    margin-left:50px;
+    color:white;
+}
+.left{
+    float:left;
+    width:70%;
+    padding-right:50px;
+    padding-top:10px;
+}
+
+h1{
+    padding-left:5px;
+    border-left:6px solid black;
+    border-bottom:3px solid black;
+}
+
+/*ここからPHP初級レッスン１６参照*/
+body{font-family: "Hiragino Kaku Gothic ProN","メイリオ",sans-serif;
+}
+
+.left h2{margin: 0 auto;
+    margin-top:20px;
+    margin-left:25px;
+    border-left:5px red solid;
+    padding-left:10px;
+    font-size:18px;
+}
+
+.left .form,.kiji{margin: 0 auto;
+    background-color:#fbfbfb;
+    border:3px #ebebeb solid;
+    margin-left:5px;
+    margin-bottom:20px;
+}
+.left form div{
+    padding:15px;
+}
+
+.left .text,textarea{
+    border:1px solid #dfdfdf;
+    padding:5px;
+    color: #999;
+    background: #fff;
+}
+
+.left .submit{
+    border:1px solid lightgray;
+    padding:4px 10px;
+    color:white;
+    background-color:#bfbfbf;
+    border-radius: 5px;
+    border-bottom:solid 2px gray;
+}
+
+.left .kiji{
+    padding-left:15px;
+    padding-bottom:15px;
+}
+
+.left h3{
+    border-bottom:3px solid #ebebeb;
+    padding-bottom:0px;
+}
+
+/*ここまでPHP初級レッスン１６参照*/
+
+.right{
+    float:left;
+    width:25%;
+}
+
+.right h2{
+    border-bottom:2px dotted black;
+    padding-top:40px;
+    padding-bottom:10px;
+}
+
+.right ul{
+    list-style:none;
+    margin-left:-60px;
+    margin-top:-10;
+    line-height:20px;
+    margin-bottom:-20px;
+}
+
+.right ul li{
+    padding-left:20px;
+    margin-top:10px;
+}
+
+footer{
+    clear:left;
+    margin-top:40px;
+    width:100%;
+    height:40px;
+    background-color:black;
+    color:white;
+    text-align:center;
+    line-height:40px;
+}
+
